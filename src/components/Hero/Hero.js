@@ -12,7 +12,7 @@ export default function Hero() {
       />
       <div className="hero-text">
         <h2>Hey, I&apos;m Frank 👋</h2>
-        <p>I&apos;m a software developer based in Hamburg.</p>
+        <p>I&apos;m a software developer based in Hamburg. Soetimes I do...</p>
       </div>
     </div>
   );
