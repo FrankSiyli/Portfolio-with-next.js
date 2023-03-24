@@ -6,12 +6,6 @@ export default function Footer() {
     <>
       <div className="footer-container">
         <div className="social_icons">
-          <p style={{ color: "white" }}>
-            © {new Date().getFullYear()} Frank Siyli
-          </p>
-          <Link href="/resume" className="resume-button">
-            CV
-          </Link>
           <a
             href="https://github.com/FrankSiyli"
             aria-label="GitHub"
@@ -39,6 +33,22 @@ export default function Footer() {
               height={100}
             ></Image>
           </a>
+          <a
+            href="/resume"
+            aria-label="resume"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/images/resume.png"
+              alt="github"
+              width={90}
+              height={90}
+            ></Image>
+          </a>
+          <p style={{ color: "white" }}>
+            © {new Date().getFullYear()} Frank Siyli
+          </p>
         </div>
       </div>
     </>
