@@ -28,20 +28,20 @@ export default function Footer() {
           >
             <Image
               src="/images/linkedin-icon.png"
-              alt="github"
+              alt="linkedin"
               width={100}
               height={100}
             ></Image>
           </a>
           <a
-            href="/resume"
-            aria-label="resume"
+            href="/CV"
+            aria-label="CV"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
               src="/images/resume.png"
-              alt="github"
+              alt="CV"
               width={90}
               height={90}
             ></Image>
@@ -49,6 +49,30 @@ export default function Footer() {
           <p style={{ color: "white" }}>
             © {new Date().getFullYear()} Frank Siyli
           </p>
+          <a
+            href="/impressum"
+            aria-label="impressum"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Impressum
+          </a>
+          <a
+            href="/datenschutz"
+            aria-label="datenschutz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Datenschutz
+          </a>
+          <a
+            href="/agb"
+            aria-label="agb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            AGB
+          </a>
         </div>
       </div>
     </>
