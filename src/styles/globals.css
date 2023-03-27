@@ -30,21 +30,6 @@ a {
   color: white;
 }
 
-/* navbar */
-.nav-container {
-  z-index: 5;
-  position: absolute;
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  padding: 1rem 0;
-  background-color: transparent;
-}
-
-.nav-container .profile-img {
-  clip-path: ellipse(50% 50% at 50% 50%);
-}
-
 /* herosection */
 .hero-container {
   z-index: -1;
@@ -55,10 +40,6 @@ a {
   align-items: center;
   flex-direction: column;
   padding: 2rem 0;
-  /*   background-image: url("/images/backgroundImage.jpg");
- */
-  background-repeat: no-repeat;
-  background-size: cover;
   margin-left: -10px;
 }
 
@@ -253,14 +234,16 @@ a {
   justify-content: center;
   flex-direction: column;
   margin-top: 10%;
+  font-size: 1.5rem;
 }
 
 form input[type="text"] {
   font-size: 25px;
   text-align: center;
   width: 50%;
+  max-width: 500px;
   height: auto;
-  border-radius: 20px;
+  border-radius: 5px;
   border: 3px #000000 solid;
   margin: 1% 0%;
 }
@@ -269,8 +252,10 @@ form input[type="email"] {
   font-size: 25px;
   text-align: center;
   width: 60%;
+  max-width: 600px;
+
   height: auto;
-  border-radius: 20px;
+  border-radius: 5px;
   border: 3px #000000 solid;
   margin: 1% 0%;
 }
@@ -279,8 +264,10 @@ form input[type="email"] {
   font-size: 25px;
   text-align: center;
   width: 70%;
+  max-width: 700px;
+
   height: auto;
-  border-radius: 20px;
+  border-radius: 5px;
   border: 3px #000000 solid;
   margin: 1% 0%;
 }
@@ -291,7 +278,9 @@ form input[type="email"] {
   border: 1px white solid;
   height: auto;
   width: 50%;
-  border-radius: 50px;
+  max-width: 500px;
+
+  border-radius: 5px;
   font-size: 30px;
   text-shadow: none;
   margin: 3% 0%;
@@ -306,17 +295,13 @@ form input[type="email"] {
 /* footer */
 .footer-container {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
   padding: 2rem 0;
   background-color: #0404059d;
+
   bottom: 0;
   margin-left: -10px;
-}
-
-.footer-container p {
-  font-size: 0.8rem;
-  color: #01060a;
 }
 
 .footer-container .social_icons {
@@ -326,38 +311,39 @@ form input[type="email"] {
   gap: 0 1rem;
 }
 
-.footer-container .social_icons a {
-  color: #151b24;
-  font-size: 2.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.footer-container .social_icons p {
-  position: absolute;
-  left: 5px;
-  color: #151b24;
-  font-size: 1.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
 .footer-container .social_icons a:hover {
-  color: #dadadb;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
 }
 
-.resume-button {
-  text-shadow: 1px 8px 8px #282a2f;
-  width: 75px;
-  height: 75px;
-  color: #1d1e20;
-  background-color: #ffcc1a;
-  padding: 0.5rem 1rem;
+.footer-impressum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.footer-impressum a:hover {
+  color: #3776ab;
+}
+
+.styled-back-link {
+  position: fixed;
+  left: 3%;
+  top: 3%;
+  background-color: #3776ab;
   border-radius: 5px;
-  font-size: 3rem;
-  font-weight: 600;
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
+  font-size: 2rem;
+  text-decoration: underline;
+  padding: 5px;
 }
 
-.resume-button:hover {
-  background-color: #ffcd1a7e;
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
 }

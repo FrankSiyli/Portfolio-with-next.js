@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import styled from "styled-components";
 import Link from "next/link";
 
@@ -6,29 +7,13 @@ const StyledImage = styled.img`
   width: 60%;
 `;
 
-const StyledContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 5%;
-`;
-
-const StyledLink = styled.a`
-  position: absolute;
-  background-color: #3776ab;
-  border-radius: 5px;
-  font-size: 2rem;
-  text-decoration: underline;
-  padding: 10px;
-  margin: 2%;
-`;
-
 export default function Resume() {
   return (
     <>
-      <StyledLink href="/">back</StyledLink>
-      <StyledContainer>
+      <Link className="styled-back-link" href="/">
+        back
+      </Link>
+      <div className="center-container">
         <StyledImage
           src="/images/LebenslaufVonFrankSiyli1.png"
           alt="Lebenslauf"
@@ -40,7 +25,8 @@ export default function Resume() {
           alt="Lebenslauf"
           unoptimized={true}
         />
-      </StyledContainer>
+      </div>
+      <Footer />
     </>
   );
 }

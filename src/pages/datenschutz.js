@@ -1,26 +1,23 @@
+import Footer from "@/components/Footer/Footer";
 import styled from "styled-components";
+import Link from "next/link";
 
-const StyledLink = styled.a`
-  position: absolute;
-  background-color: #3776ab;
-  border-radius: 5px;
-  font-size: 2rem;
-  text-decoration: underline;
-  padding: 10px;
-  left: 0;
-`;
-
-const StyledPContainer = styled.div`
+const StyledContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin-top: 5%;
-  text-align: center;
 `;
 
 export default function Datenschutz() {
   return (
     <>
-      <StyledLink href="/">back</StyledLink>
+      <Link className="styled-back-link" href="/">
+        back
+      </Link>
 
-      <StyledPContainer>
+      <div className="center-container">
         <h3> Datenschutzerklärung</h3>
         <p>
           Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der
@@ -103,7 +100,8 @@ export default function Datenschutz() {
           wurde mithilfe der activeMind AG erstellt, den Experten für externe
           Datenschutzbeauftragte Version #2020-09-30.
         </p>
-      </StyledPContainer>
+      </div>
+      <Footer />
     </>
   );
 }

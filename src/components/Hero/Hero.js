@@ -8,6 +8,7 @@ export default function Hero() {
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
         backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       }}
     >
       <Image

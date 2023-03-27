@@ -1,25 +1,13 @@
-import styled from "styled-components";
-
-const StyledLink = styled.a`
-  position: absolute;
-  background-color: #3776ab;
-  border-radius: 5px;
-  font-size: 2rem;
-  text-decoration: underline;
-  padding: 10px;
-  left: 0;
-`;
-
-const StyledPContainer = styled.div`
-  margin-top: 5%;
-  text-align: center;
-`;
+import Footer from "@/components/Footer/Footer";
+import Link from "next/link";
 
 export default function Agb() {
   return (
     <>
-      <StyledLink href="/">back</StyledLink>
-      <StyledPContainer>
+      <Link className="styled-back-link" href="/">
+        back
+      </Link>
+      <div className="center-container">
         <p>
           ALLGEMEINE GESCHÄFTSBEDINGUNGEN VON https://frank-siyli.com Willkommen
           bei Frank Siyli !
@@ -37,7 +25,7 @@ export default function Agb() {
           Dienstleistung der Frank Siyli in Anspruch nehmen.
         </p>
         <p>
-          3) Auf https://frank-siyli.com bieten wir Ihnen folgende
+          (3) Auf https://frank-siyli.com bieten wir Ihnen folgende
           Dienstleistungen an:
         </p>
         <p>§ 2 Zustandekommen des Vertrages</p>
@@ -148,7 +136,7 @@ export default function Agb() {
           auch kein Mitglied seines Haushaltes nicht wegen einer vorsätzlichen
           Straftat die die Sicherheit von Dritten gefährdet vorbestraft ist,
           insbesondere nicht wegen einer Straftat gegen die sexuelle
-          Selbstbestimmung (§§ 174 ff. StGB, einer Straftat gegen das Leben (§§
+          Selbstbestimmung (§§ 174 ff. StGB), einer Straftat gegen das Leben (§§
           211 ff. StGB), einer Straftat gegen die körperliche Unversehrtheit (§
           223 ff. StGB), einer Straftat gegen die persönliche Freiheit (§§ 232
           ff. StGB), oder wegen eines Diebstahl und Unterschlagung (§§ 242 ff.
@@ -497,7 +485,8 @@ export default function Agb() {
           rechtlich zulässige Bestimmung ersetzt werden, die dem Sinn und Zweck
           der unwirksamen Bestimmung entspricht.
         </p>
-      </StyledPContainer>
+      </div>
+      <Footer />
     </>
   );
 }

@@ -1,27 +1,14 @@
 import styled from "styled-components";
+import Footer from "@/components/Footer/Footer";
 import Link from "next/link";
-
-const StyledLink = styled.a`
-  position: absolute;
-  background-color: #3776ab;
-  border-radius: 5px;
-  font-size: 2rem;
-  text-decoration: underline;
-  padding: 10px;
-  left: 0;
-`;
-
-const StyledPContainer = styled.div`
-  margin-top: 5%;
-  text-align: center;
-  margin-bottom: 20%;
-`;
 
 export default function Impressum() {
   return (
     <>
-      <StyledLink href="/">back</StyledLink>
-      <StyledPContainer>
+      <Link className="styled-back-link" href="/">
+        back
+      </Link>
+      <div className="center-container">
         <p>Frank Siyli</p>
         <p>Vogt Groth Weg 45a</p>
         <p>22609 Hamburg</p>
@@ -39,7 +26,8 @@ export default function Impressum() {
           Ich bin zur Teilnahme an einem Streitbeilegungsverfahren vor einer
           Verbraucherschlichtungsstelle weder verpflichtet noch bereit.
         </p>
-      </StyledPContainer>
+      </div>
+      <Footer />
     </>
   );
 }

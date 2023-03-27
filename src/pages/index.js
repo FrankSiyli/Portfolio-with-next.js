@@ -4,15 +4,16 @@ import Skills from "@/components/Skills/Skills";
 import Projects from "@/components/Projects/Projects";
 import Contact from "@/components/Contact/Contact";
 import Head from "next/head";
+import Footer from "@/components/Footer/Footer";
+import CookieConsent from "react-cookie-consent";
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Frank&apos;s Portfolio</title>
-        <meta name="description" content="Joel's Portfolio" />
+        <meta name="description" content="Frank's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
         <Hero />
@@ -20,6 +21,10 @@ export default function Home() {
         <Skills />
         <Projects />
         <Contact />
+        <Footer />
+        <CookieConsent>
+          This website uses cookies to enhance the user experience.
+        </CookieConsent>
       </div>
     </>
   );

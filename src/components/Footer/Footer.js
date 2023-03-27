@@ -46,6 +46,8 @@ export default function Footer() {
               height={90}
             ></Image>
           </a>
+        </div>
+        <div className="footer-impressum">
           <p style={{ color: "white" }}>
             © {new Date().getFullYear()} Frank Siyli
           </p>
