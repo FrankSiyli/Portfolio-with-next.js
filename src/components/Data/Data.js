@@ -4,15 +4,23 @@ import ventilImage from "public/images/ventilImage.png";
 import secImage from "public/images/secImage.jpg";
 import calculatorsImage from "public/images/calculatorsImage.png";
 import FSOldVersionImage from "public/images/FSOldVersionImage.png";
+import backgroundImage from "public/images/backgroundImage.jpg";
 
 export const projectData = [
+  {
+    id: 6,
+    backgroundImage: backgroundImage,
+    title: "frank-siyli.com",
+    time: "3/2023",
+    description: <Link href="frank-siyli.com"> First one with NEXT.js</Link>,
+  },
   {
     id: 1,
     backgroundImage: neuefischeImage,
     title: "Web Development Bootcamp",
     time: "2/2023 - 5/2023",
     description: (
-      <Link arget="_blank" href="www.neuefische.de">
+      <Link target="_blank" href="https://www.neuefische.de">
         https://www.neuefische.de
       </Link>
     ),
@@ -24,7 +32,7 @@ export const projectData = [
     time: "2/2023",
     description: (
       <Link
-        arget="_blank"
+        target="_blank"
         href="https://siyli-endurance-coaching.com/calc.html"
       >
         https://Endurance-calculators-with-Javascript
@@ -37,7 +45,10 @@ export const projectData = [
     title: "autodidact (old version with HTML and CSS)",
     time: "1/2023",
     description: (
-      <Link arget="_blank" href="https://github.com/FrankSiyli/Frank-Siyli.com">
+      <Link
+        target="_blank"
+        href="https://github.com/FrankSiyli/Frank-Siyli.com"
+      >
         https://frank-siyli-old-version.com
       </Link>
     ),
@@ -48,7 +59,7 @@ export const projectData = [
     title: "autodidact",
     time: "1/2023",
     description: (
-      <Link arget="_blank" href="https://siyli-endurance-coaching.com">
+      <Link target="_blank" href="https://siyli-endurance-coaching.com">
         https://siyli-endurance-coaching.com
       </Link>
     ),
