@@ -9,11 +9,13 @@ export default function Contact() {
         </p>
         <form
           className="contact-form"
+          aria-label="contact-form"
           action="https://formsubmit.co/frank.siyli@gmail.com"
           method="post"
         >
-          <label for="name">your name</label>
+          <label htmlFor="name">your name</label>
           <input
+            aria-label="contact-form-name"
             type="text"
             id="name"
             name="name"
@@ -21,10 +23,18 @@ export default function Contact() {
             maxlength="30"
             required
           />
-          <label for="email">your email address</label>
-          <input type="email" id="email" name="email" maxlength="50" required />
-          <label for="textarea">feel free</label>
+          <label htmlFor="email">your email address</label>
+          <input
+            aria-label="contact-form-email"
+            type="email"
+            id="email"
+            name="email"
+            maxlength="50"
+            required
+          />
+          <label htmlFor="textarea">feel free</label>
           <textarea
+            aria-label="contact-form-textarea"
             id="textarea"
             name="textarea"
             required

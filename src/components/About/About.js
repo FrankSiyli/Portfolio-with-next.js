@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="about-container">
+    <div aria-label="About Me" className="about-container">
       <h2>About Me</h2>
       <div className="flex-about">
         <div className="about-text">

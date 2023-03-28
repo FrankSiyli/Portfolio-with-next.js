@@ -2,7 +2,7 @@ import { projectData } from "../../components/Data/Data.js";
 
 export default function Projects() {
   return (
-    <div className="projects-container">
+    <div aria-label="projects" className="projects-container">
       <h2>Projects</h2>
       <div className="projects-flex">
         {projectData &&
