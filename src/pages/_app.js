@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 import Layout from "../components/Layout/Layout";
 import Script from "next/script";
@@ -24,9 +25,10 @@ page_path: window.location.pathname,
 `,
         }}
       />
-
       <Layout>
-        <Component {...pageProps} />
+        <ParallaxProvider>
+          <Component {...pageProps} />
+        </ParallaxProvider>
       </Layout>
     </>
   );
