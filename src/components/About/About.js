@@ -11,7 +11,7 @@ export default function About() {
             something new. Something with new stimuli and enough opportunities
             to develop myself further. The bootcamp at &quot;neueFische&quot;
             was the perfect start into the IT-world and from mid may I am
-            looking for a team where I can further develop my knowledge.
+            looking for a team where I can develop my knowledge further.
           </p>
         </div>
       </div>

@@ -316,6 +316,19 @@ form input[type="email"] {
   transition-duration: 0.4s;
 }
 
+.hide {
+  display: none;
+}
+
+.icon_hide:hover .hide {
+  display: block;
+  font-size: 2rem;
+  position: absolute;
+  top: -3rem;
+  left: 3rem;
+  color: #3776ab;
+}
+
 .footer-impressum {
   display: flex;
   justify-content: space-between;

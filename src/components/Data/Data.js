@@ -4,7 +4,7 @@ import ventilImage from "public/images/ventilImage.png";
 import secImage from "public/images/secImage.jpg";
 import calculatorsImage from "public/images/calculatorsImage.png";
 import FSOldVersionImage from "public/images/FSOldVersionImage.png";
-import backgroundImage from "public/images/backgroundImage.jpg";
+import backgroundImage from "public/images/smallBackground.jpeg";
 
 export const projectData = [
   {
