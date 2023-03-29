@@ -14,7 +14,6 @@
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
-    "react-backdrop-filter": "^2.1.0",
     "react-blur": "^1.1.1",
     "react-cookie-consent": "^8.0.1",
     "react-dom": "18.2.0",
