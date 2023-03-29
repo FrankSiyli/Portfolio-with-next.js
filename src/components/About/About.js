@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function About() {
   return (
     <div aria-label="About Me" className="about-container">
