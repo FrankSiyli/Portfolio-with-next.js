@@ -164,12 +164,12 @@ a {
   height: 400px;
   width: 300px;
   border: 1px solid #e6e6e6;
-  padding: 20px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.119);
   background-size: 100% 50%;
   transition: 0.5s ease-in;
   margin-bottom: 5%;
+  text-align: center;
 }
 
 .project-card:hover {
@@ -180,9 +180,10 @@ a {
 }
 
 .project-card .project-header {
-  margin-top: 70%;
+  margin-top: 199px;
+  height: 50%;
   width: 100%;
-  height: auto;
+  background-color: rgba(0, 0, 0, 0.716);
 }
 
 .project-card .project-header:hover {
