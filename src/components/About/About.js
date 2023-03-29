@@ -8,7 +8,7 @@ export default function About() {
         <div className="about-text">
           <p>
             After almost two decades in the automotive industry, it was time for
-            for a change. Something with new stimuli and enough opportunities to
+            a change. Something with new stimuli and enough opportunities to
             develop myself further. The bootcamp at &quot;neueFische&quot; was
             the perfect start into the IT-world and from mid of may 2023 I am
             looking for a team where I can develop my knowledge and be a part of
