@@ -67,6 +67,7 @@ a {
   margin-top: 2%;
   padding: 2%;
   background-color: #1d1e20c8;
+  height: 30rem;
 }
 
 .keen-slider__slide {
@@ -84,6 +85,31 @@ a {
 
 .skills-container p {
   color: #3776ab;
+}
+
+/*carousel*/
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.scene {
+  width: 30px;
+  height: 30px;
+  perspective: 300px;
+  position: relative;
+}
+.scene .carousel.keen-slider {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: visible;
+  transform: translateZ(-288px);
+  transform-style: preserve-3d;
+}
+.carousel__cell {
+  position: absolute;
+  text-align: center;
 }
 
 /* projects */
