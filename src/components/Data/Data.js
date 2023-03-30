@@ -12,7 +12,7 @@ export const projectData = [
     backgroundImage: backgroundImage,
     title: "frank-siyli.com",
     time: "3/2023",
-    description: <p>First one with React & NEXT</p>,
+    description: "First one with React & NEXT",
   },
   {
     id: 1,

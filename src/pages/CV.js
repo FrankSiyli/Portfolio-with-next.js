@@ -14,7 +14,7 @@ export default function Resume() {
       <Link className="styled-back-link" href="/">
         back
       </Link>
-      <div className="center-container">
+      <div className="center-container-CV">
         <StyledImage
           src="/images/LebenslaufVonFrankSiyli1.png"
           alt="Lebenslauf"
