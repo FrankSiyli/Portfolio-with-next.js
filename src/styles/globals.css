@@ -70,6 +70,15 @@ a {
   height: 20rem;
 }
 
+.skills-container h2 {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-decoration-color: #3776ab;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+}
+
 .skills-container h3 {
   font-size: 3rem;
   text-decoration: underline;
