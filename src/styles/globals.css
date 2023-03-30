@@ -30,18 +30,16 @@ a {
   flex-direction: column;
 }
 
-.hero-container .hero-text {
-  text-align: center;
-}
-
 .hero-container h2 {
   font-size: 3rem;
   font-weight: 600;
+  text-align: center;
 }
 
 .hero-container .hero-text p {
   font-size: 2.5rem;
   font-weight: 400;
+  text-align: center;
 }
 
 /* about */

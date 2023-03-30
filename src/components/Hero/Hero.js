@@ -48,7 +48,7 @@ export default function Hero() {
           zIndex: "-10",
           background: `url("/images/backgroundImage.jpg")`,
           backgroundSize: "cover",
-          width: "100%",
+          width: "120%",
           height: "100%",
         }}
         opacity={opacity}
