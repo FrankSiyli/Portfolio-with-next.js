@@ -2,7 +2,7 @@ import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 
 const animation = {
-  duration: 20000,
+  duration: 15000,
   easing: (t) => t,
 };
 
@@ -155,7 +155,7 @@ export default function Skills() {
             <p>React</p>
           </a>
         </div>
-        <div className="keen-slider__slide__text">
+        <div className="keen-slider__slide">
           <h3 style={{ marginTop: 40 }}>and more to come 📚</h3>
         </div>
       </div>
