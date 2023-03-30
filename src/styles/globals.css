@@ -94,17 +94,17 @@ a {
   justify-content: center;
 }
 .scene {
-  width: 1px;
-  height: 1px;
-  perspective: 1000px;
+  width: 200px;
+  height: -300px;
+  perspective: 500px;
   position: relative;
 }
 .scene .carousel.keen-slider {
-  width: 100%;
+  width: 80%;
   height: 100%;
-  position: absolute;
+  position: relative;
   overflow: visible;
-  transform: translateZ(-288px);
+  transform: translateZ(10px);
   transform-style: preserve-3d;
 }
 .carousel__cell {
