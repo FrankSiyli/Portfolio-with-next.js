@@ -96,7 +96,7 @@ a {
 .scene {
   width: 30px;
   height: 30px;
-  perspective: 300px;
+  perspective: 1000px;
   position: relative;
 }
 .scene .carousel.keen-slider {
@@ -104,7 +104,7 @@ a {
   height: 100%;
   position: absolute;
   overflow: visible;
-  transform: translateZ(-288px);
+  transform: translateZ(-8px);
   transform-style: preserve-3d;
 }
 .carousel__cell {
