@@ -7,7 +7,7 @@ import { useKeenSlider } from "keen-slider/react";
 }; */
 
 const carousel = (slider) => {
-  const z = 800;
+  const z = 500;
   function rotate() {
     const deg = 360 * slider.track.details.progress;
     slider.container.style.transform = `translateZ(-${z}px) rotateY(${-deg}deg)`;

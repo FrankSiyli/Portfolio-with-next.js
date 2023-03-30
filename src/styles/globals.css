@@ -94,8 +94,8 @@ a {
   justify-content: center;
 }
 .scene {
-  width: 30px;
-  height: 30px;
+  width: 1px;
+  height: 1px;
   perspective: 1000px;
   position: relative;
 }
@@ -104,7 +104,7 @@ a {
   height: 100%;
   position: absolute;
   overflow: visible;
-  transform: translateZ(-8px);
+  transform: translateZ(-288px);
   transform-style: preserve-3d;
 }
 .carousel__cell {
