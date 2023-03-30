@@ -17,11 +17,11 @@ body {
   background-color: #1d1e20;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   body {
     text-align: center;
   }
-}
+} */
 
 a {
   text-decoration: none;
@@ -32,18 +32,12 @@ a {
 .hero-container {
   position: relative;
   height: 100vh;
-  width: 100vw;
+  width: 80vw;
+  margin-left: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-@media screen and (max-width: 768px) {
-  .hero-container {
-    width: 90%;
-    margin-left: 5%;
-  }
 }
 
 .hero-container .hero-text {
@@ -88,30 +82,21 @@ a {
   background-color: #1d1e20c8;
 }
 
+.keen-slider__slide {
+  text-align: center;
+}
+
 .skills-container h2 {
   font-size: 3rem;
   text-decoration: underline;
   text-decoration-color: #3776ab;
   font-weight: 600;
-  margin-bottom: 10%;
+  margin-bottom: 1rem;
+  margin-left: 10px;
 }
 
 .skills-container p {
   color: #3776ab;
-}
-
-.skills-container .grid-skills {
-  text-align: center;
-
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-}
-
-@media screen and (max-width: 768px) {
-  .skills-container .grid-skills {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 /* projects */

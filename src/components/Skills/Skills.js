@@ -1,19 +1,14 @@
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
-import "@/components/Skills/Skills";
 
-const animation = { duration: 30000, easing: (t) => t };
+const animation = {
+  duration: 20000,
+  easing: (t) => t,
+};
 
 export default function Skills() {
-  /* return (
-    <> */
-  <h3 /* style={{ marginTop: 40 }} */>and more to come 📚</h3>;
-  {
-    /* <div aria-label="skills" className="skills-container">
-      <h2>Skills</h2> */
-  }
-
   const [sliderRef] = useKeenSlider({
+    slides: { perView: 3 },
     loop: true,
     renderMode: "performance",
     drag: false,
@@ -28,24 +23,10 @@ export default function Skills() {
     },
   });
   return (
-    <div ref={sliderRef} className="keen-slider">
-      <div className="keen-slider__slide number-slide1">1</div>
-      <div className="keen-slider__slide number-slide2">2</div>
-      <div className="keen-slider__slide number-slide3">3</div>
-      <div className="keen-slider__slide number-slide4">4</div>
-      <div className="keen-slider__slide number-slide5">5</div>
-      <div className="keen-slider__slide number-slide6">6</div>
-    </div>
-  );
-  /*  </> */
-}
-
-{
-  /* export default function Skills() {
-  return ( 
     <div aria-label="skills" className="skills-container">
       <h2>Skills</h2>
-      <div className="grid-skills">
+      <div ref={sliderRef} className="keen-slider">
+        <div className="keen-slider__slide">
           <a>
             <svg
               width={100}
@@ -60,7 +41,8 @@ export default function Skills() {
             </svg>
             <p>Git</p>
           </a>
-        
+        </div>
+        <div className="keen-slider__slide">
           <a>
             <svg
               width={100}
@@ -75,7 +57,9 @@ export default function Skills() {
             </svg>
             <p>GitHub</p>
           </a>
-        
+        </div>
+        <div className="keen-slider__slide">
+          {" "}
           <a>
             <svg
               width={100}
@@ -90,7 +74,8 @@ export default function Skills() {
             </svg>
             <p>HTML5</p>
           </a>
-        
+        </div>
+        <div className="keen-slider__slide">
           <a>
             <svg
               width={100}
@@ -105,7 +90,8 @@ export default function Skills() {
             </svg>
             <p>JavaScript</p>
           </a>
-        
+        </div>
+        <div className="keen-slider__slide">
           <a>
             <svg
               width={100}
@@ -120,7 +106,8 @@ export default function Skills() {
             </svg>
             <p>MongoDB</p>
           </a>
-        
+        </div>
+        <div className="keen-slider__slide">
           <a>
             <svg
               width={100}
@@ -135,7 +122,8 @@ export default function Skills() {
             </svg>
             <p>Next.js</p>
           </a>
-        
+        </div>
+        <div className="keen-slider__slide">
           <a>
             <svg
               width={100}
@@ -150,7 +138,8 @@ export default function Skills() {
             </svg>
             <p>Node.js</p>
           </a>
-        
+        </div>
+        <div className="keen-slider__slide">
           <a>
             <svg
               width={100}
@@ -165,10 +154,11 @@ export default function Skills() {
             </svg>
             <p>React</p>
           </a>
-       
+        </div>
+        <div className="keen-slider__slide__text">
           <h3 style={{ marginTop: 40 }}>and more to come 📚</h3>
+        </div>
       </div>
     </div>
   );
-} */
 }
