@@ -39,6 +39,13 @@ a {
   flex-direction: column;
 }
 
+@media screen and (max-width: 768px) {
+  .hero-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
 .hero-container .hero-text {
   text-align: center;
 }

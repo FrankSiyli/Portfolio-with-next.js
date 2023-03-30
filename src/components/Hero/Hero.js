@@ -56,9 +56,8 @@ export default function Hero(props) {
       />
       <Parallax scale={["2", "0"]}>
         <div className="hero-container">
-          <h2>Hey, I&apos;m Frank 👋</h2>
-
           <div className="hero-text">
+            <h2>Hey, I&apos;m Frank 👋</h2>
             <p>I&apos;m a software developer based in Hamburg.</p>
           </div>
         </div>

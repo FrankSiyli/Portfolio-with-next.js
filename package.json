@@ -9,19 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-spring/web": "^9.7.1",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
-    "react-backdrop-filter": "^2.1.0",
-    "react-blur": "^1.1.1",
     "react-cookie-consent": "^8.0.1",
     "react-dom": "18.2.0",
-    "react-just-parallax": "^3.1.14",
-    "react-parallax": "^3.5.1",
     "react-scroll-parallax": "^3.3.2",
-    "sharp": "^0.31.3",
     "styled-components": "^5.3.9"
   }
 }
