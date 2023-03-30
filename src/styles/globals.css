@@ -67,7 +67,7 @@ a {
   margin-top: 2%;
   padding: 2%;
   background-color: #1d1e20c8;
-  height: 20rem;
+  height: 25rem;
 }
 
 .skills-container h2 {
@@ -105,8 +105,8 @@ a {
   position: relative;
 }
 .scene .carousel.keen-slider {
-  width: 80%;
-  height: 100%;
+  width: -50%;
+  height: 50%;
   position: relative;
   overflow: visible;
   transform: translateZ(10px);
