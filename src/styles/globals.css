@@ -67,14 +67,10 @@ a {
   margin-top: 2%;
   padding: 2%;
   background-color: #1d1e20c8;
-  height: 30rem;
+  height: 20rem;
 }
 
-.keen-slider__slide {
-  text-align: center;
-}
-
-.skills-container h2 {
+.skills-container h3 {
   font-size: 3rem;
   text-decoration: underline;
   text-decoration-color: #3776ab;
@@ -109,6 +105,9 @@ a {
 }
 .carousel__cell {
   position: absolute;
+  text-align: center;
+}
+.keen-slider__slide {
   text-align: center;
 }
 

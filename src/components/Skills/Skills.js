@@ -169,9 +169,7 @@ export default function Skills() {
                 </a>
               </div>
               <div className="carousel__cell">
-                <h3 style={{ marginTop: 40, color: "white" }}>
-                  and more to come 📚
-                </h3>
+                <h3 style={{ color: "white" }}>and more to come 📚</h3>
               </div>
             </div>
           </div>
