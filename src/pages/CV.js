@@ -4,7 +4,8 @@ import Link from "next/link";
 
 const StyledImage = styled.img`
   height: auto;
-  width: 60%;
+  width: 90%;
+  margin-bottom: 1rem;
 `;
 
 export default function Resume() {
