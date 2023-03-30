@@ -24,7 +24,7 @@ function scrollFilter() {
   return "blur(" + newFilter + "px) brightness(0.7)";
 }
 
-export default function Hero(props) {
+export default function Hero() {
   const [opacity, setOpacity] = useState(1);
   const [filter, setFilter] = useState("blur(0px) brightness(0.7)");
 
