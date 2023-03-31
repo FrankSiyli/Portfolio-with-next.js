@@ -5,8 +5,8 @@ import Link from "next/link";
 const StyledImage = styled.img`
   height: auto;
   width: 70%;
-  max-width: 800px;
-  margin: 1rem;
+  max-width: 700px;
+  margin-bottom: 0.5rem;
 `;
 
 export default function Resume() {
@@ -17,13 +17,13 @@ export default function Resume() {
       </Link>
       <div className="center-container-CV">
         <StyledImage
-          src="/images/LebenslaufVonFrankSiyli1.png"
+          src="/images/CV1.png"
           alt="Lebenslauf"
           unoptimized={true}
         />
 
         <StyledImage
-          src="/images/LebenslaufVonFrankSiyli2.png"
+          src="/images/CV2.png"
           alt="Lebenslauf"
           unoptimized={true}
         />

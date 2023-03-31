@@ -369,15 +369,15 @@ form input[type="email"] {
 /*CV page*/
 
 .center-container-CV {
+  margin-top: 7rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
 @media screen and (max-width: 500px) {
   .center-container-CV img {
     width: 90%;
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
 }
