@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const StyledImage = styled.img`
   height: auto;
-  width: 70%;
+  width: 90vw;
   max-width: 700px;
-  margin-bottom: 0.5rem;
+  margin-top: 1vh;
 `;
 
 export default function Resume() {
