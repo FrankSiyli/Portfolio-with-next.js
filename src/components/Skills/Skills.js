@@ -7,7 +7,7 @@ import { useKeenSlider } from "keen-slider/react";
 }; */
 
 const carousel = (slider) => {
-  const z = 400;
+  const z = 500;
   function rotate() {
     const deg = 360 * slider.track.details.progress;
     slider.container.style.transform = `translateZ(-${z}px) rotateY(${-deg}deg)`;
@@ -169,7 +169,9 @@ export default function Skills() {
                 </a>
               </div>
               <div className="carousel__cell">
-                <h3 style={{ color: "white" }}>and more to come 📚</h3>
+                <p style={{ color: "white" }}>
+                  and <br /> more <br /> to <br /> come <br /> 📚
+                </p>
               </div>
             </div>
           </div>

@@ -13,7 +13,10 @@ export default function Home() {
       <Head>
         <title>Frank&apos;s Portfolio</title>
         <meta name="description" content="Frank's Portfolio" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1.0"
+        />
       </Head>
       <div>
         <Hero />
