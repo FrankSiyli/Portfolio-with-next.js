@@ -7,7 +7,10 @@ export default function Agb() {
       <Link className="styled-back-link" href="/">
         back
       </Link>
-      <div className="center-container">
+      <div
+        className="center-container"
+        style={{ textAlign: "center", marginTop: "5rem" }}
+      >
         <p>
           ALLGEMEINE GESCHÄFTSBEDINGUNGEN VON https://frank-siyli.com Willkommen
           bei Frank Siyli !

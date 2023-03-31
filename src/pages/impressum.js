@@ -8,7 +8,10 @@ export default function Impressum() {
       <Link className="styled-back-link" href="/">
         back
       </Link>
-      <div className="center-container">
+      <div
+        className="center-container"
+        style={{ textAlign: "center", marginTop: "5rem" }}
+      >
         <p>Frank Siyli</p>
         <p>Vogt Groth Weg 45a</p>
         <p>22609 Hamburg</p>

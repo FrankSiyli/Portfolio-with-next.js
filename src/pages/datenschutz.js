@@ -17,7 +17,10 @@ export default function Datenschutz() {
         back
       </Link>
 
-      <div className="center-container">
+      <div
+        className="center-container"
+        style={{ textAlign: "center", marginTop: "5rem" }}
+      >
         <h3> Datenschutzerklärung</h3>
         <p>
           Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der
