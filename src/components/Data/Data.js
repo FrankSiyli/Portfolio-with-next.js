@@ -5,8 +5,23 @@ import secImage from "public/images/secImage.jpg";
 import calculatorsImage from "public/images/calculatorsImage.png";
 import FSOldVersionImage from "public/images/FSOldVersionImage.png";
 import backgroundImage from "public/images/smallBackground.jpeg";
+import capstoneImage from "public/images/capstoneImage.png";
 
 export const projectData = [
+  {
+    id: 7,
+    backgroundImage: capstoneImage,
+    title: "Triathlon App",
+    time: "3/4/2023-3/5/2023",
+    description: (
+      <Link
+        target="_blank"
+        href="https://github.com/FrankSiyli/capstone_triathlon_app"
+      >
+        my Capstone-Project at neueFische
+      </Link>
+    ),
+  },
   {
     id: 6,
     backgroundImage: backgroundImage,
