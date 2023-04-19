@@ -151,6 +151,7 @@ a {
 .carousel__cell {
   position: absolute;
   text-align: center;
+  cursor: pointer;
 }
 
 .carousel__cell svg {
