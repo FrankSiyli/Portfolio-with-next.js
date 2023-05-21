@@ -20,7 +20,7 @@ export default function Contact() {
             id="name"
             name="name"
             pattern="\w{3,30}"
-            maxlength="30"
+            maxLength="30"
             required
           />
           <label htmlFor="email">your email address</label>
@@ -29,7 +29,7 @@ export default function Contact() {
             type="email"
             id="email"
             name="email"
-            maxlength="50"
+            maxLength="50"
             required
           />
           <label htmlFor="textarea">feel free</label>
@@ -40,7 +40,7 @@ export default function Contact() {
             required
             rows="10"
             pattern="\w{3,300}"
-            maxlength="300"
+            maxLxength="300"
           ></textarea>
           <button id="submit" type="submit">
             submit

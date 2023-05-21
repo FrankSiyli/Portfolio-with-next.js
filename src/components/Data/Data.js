@@ -6,8 +6,20 @@ import calculatorsImage from "public/images/calculatorsImage.png";
 import FSOldVersionImage from "public/images/FSOldVersionImage.png";
 import backgroundImage from "public/images/smallBackground.jpeg";
 import capstoneImage from "public/images/capstoneImage.png";
+import reduxShopImage from "public/images/reduxShop.png";
 
 export const projectData = [
+  {
+    id: 8,
+    backgroundImage: reduxShopImage,
+    title: "Redux Shop",
+    time: "5/2023",
+    description: (
+      <Link target="_blank" href="https://cra-redux-shop.vercel.app">
+        Fake Shop build with React, RTK and RTK Query
+      </Link>
+    ),
+  },
   {
     id: 7,
     backgroundImage: capstoneImage,
