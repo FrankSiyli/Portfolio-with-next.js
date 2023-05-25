@@ -7,8 +7,20 @@ import FSOldVersionImage from "public/images/FSOldVersionImage.png";
 import backgroundImage from "public/images/smallBackground.jpeg";
 import capstoneImage from "public/images/capstoneImage.png";
 import reduxShopImage from "public/images/reduxShop.png";
+import sec2 from "public/images/SEC-2.png";
 
 export const projectData = [
+  {
+    id: 9,
+    backgroundImage: sec2,
+    title: "Siyli endurance coaching",
+    time: "5/2023",
+    description: (
+      <Link target="_blank" href="https://siyli-endurance-coaching.com">
+        Siyli endurance coaching
+      </Link>
+    ),
+  },
   {
     id: 8,
     backgroundImage: reduxShopImage,
