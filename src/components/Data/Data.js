@@ -72,7 +72,7 @@ export const projectData = [
     description: (
       <Link
         target="_blank"
-        href="https://siyli-endurance-coaching.com/calc.html"
+        href="https://github.com/FrankSiyli/siyli-endurance-coaching.com/blob/main/calc.js"
       >
         https://Endurance-calculators-with-Javascript
       </Link>
@@ -95,11 +95,14 @@ export const projectData = [
   {
     id: 4,
     backgroundImage: secImage,
-    title: "autodidact",
+    title: "autodidact (old version with HTML and CSS)",
     time: "1/2023",
     description: (
-      <Link target="_blank" href="https://siyli-endurance-coaching.com">
-        https://siyli-endurance-coaching.com
+      <Link
+        target="_blank"
+        href="https://github.com/FrankSiyli/siyli-endurance-coaching.com"
+      >
+        siyli-endurance-coaching.com
       </Link>
     ),
   },

@@ -3,10 +3,7 @@ export default function Contact() {
     <>
       <div className="contact-container">
         <h2>Get In Touch</h2>
-        <p>
-          If you want us to work together or have any question feel free to send
-          me a message.
-        </p>
+
         <form
           className="contact-form"
           aria-label="contact-form"
