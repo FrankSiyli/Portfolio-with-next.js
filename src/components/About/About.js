@@ -11,7 +11,12 @@ export default function About() {
             Nach vielen Jahren in der Automobilindustrie suchte ich nach einer
             Veränderung. Ich wollte meiner Leidenschaft für Technologie
             nachgehen und meine Fähigkeiten erweitern. Ich entschied mich für
-            ein Web Development Bootcamp. Diese Entscheidung war gold richtig
+            ein Web Development Bootcamp.
+            <br />
+            <br />
+            Diese Entscheidung war gold richtig
+            <br />
+            <br />
             und der perfekte Einstieg in die IT-Welt. Als erfahrener Handwerker
             suche ich praktische Ansätze zur Problemlösung und lege größten Wert
             auf Qualität. Ich bin ab sofort auf der Suche nach einem Team in dem
