@@ -17,7 +17,7 @@ export const projectData = [
     time: "5/2023",
     description: (
       <Link target="_blank" href="https://siyli-endurance-coaching.com">
-        Siyli endurance coaching
+        A React project
       </Link>
     ),
   },
