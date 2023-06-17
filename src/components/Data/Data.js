@@ -8,8 +8,20 @@ import backgroundImage from "public/images/smallBackground.jpeg";
 import capstoneImage from "public/images/capstoneImage.png";
 import reduxShopImage from "public/images/reduxShop.png";
 import sec2 from "public/images/SEC-2.png";
+import nextauth from "public/images/nextauth.png";
 
 export const projectData = [
+  {
+    id: 10,
+    backgroundImage: nextauth,
+    title: "NEXT.js 13.4 + NextAuth.js 4.2",
+    time: "6/2023",
+    description: (
+      <Link target="_blank" href="https://next13-nextauth.vercel.app">
+        NextAuth server and client side
+      </Link>
+    ),
+  },
   {
     id: 9,
     backgroundImage: sec2,
