@@ -54,7 +54,7 @@ export default function Hero() {
         opacity={opacity}
         filter={filter}
       />
-      <Parallax scale={["1", "0"]}>
+      <Parallax rotate={[360, -360]} scale={[2, -0.5]}>
         <div className="hero-container">
           <div className="hero-text">
             <h2>Hey, I&apos;m Frank 👋</h2>
