@@ -9,8 +9,20 @@ import capstoneImage from "public/images/capstoneImage.png";
 import reduxShopImage from "public/images/reduxShop.png";
 import sec2 from "public/images/SEC-2.png";
 import nextauth from "public/images/nextauth.png";
+import insta from "public/images/insta.png";
 
 export const projectData = [
+  {
+    id: 11,
+    backgroundImage: insta,
+    title: " instagram clone still under construction",
+    time: "6/2023",
+    description: (
+      <Link target="_blank" href="https://insta-2-0-alpha.vercel.app">
+        NEXT.js13.4 & Tailwind & Recoil
+      </Link>
+    ),
+  },
   {
     id: 10,
     backgroundImage: nextauth,
