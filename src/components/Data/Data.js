@@ -13,17 +13,6 @@ import insta from "public/images/insta.png";
 
 export const projectData = [
   {
-    id: 11,
-    backgroundImage: insta,
-    title: " instagram clone still under construction",
-    time: "6/2023",
-    description: (
-      <Link target="_blank" href="https://insta-2-0-alpha.vercel.app">
-        NEXT.js13.4 & Tailwind & Recoil
-      </Link>
-    ),
-  },
-  {
     id: 10,
     backgroundImage: nextauth,
     title: "NEXT.js 13.4 + NextAuth.js 4.2",
